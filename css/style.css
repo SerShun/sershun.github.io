@@ -1,0 +1,316 @@
+.page{
+    max-width: 1600px;
+    font-family: inter;
+    margin: 0 auto;
+}
+
+.header{
+    min-height: 50px;
+    background: #1E293B;
+    padding: 8px 100px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #E2E8F0;
+}
+
+.title__text{
+    width: 112px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+
+
+}
+
+.header__date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12.5px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.date__clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+}
+
+.clock__circle{
+    position: relative;
+}
+
+.clock__img{
+    position:absolute
+}
+
+.header__phone{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.phone__callback{
+    text-decoration: none;
+    color: #E2E8F0 ;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    text-underline-offset: 3px;
+}
+
+/* ------------------section 2 (div=main)-------------- */
+.main{
+    min-height: 640px;
+    background: url(/images/scr2_bgp.png) no-repeat center / cover;
+    color: #FFFFFF;
+    padding: 26px 100px 158px 100px;
+}
+
+.main__header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.menu__list{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.list__item{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.info__header{
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;
+    text-transform: uppercase;
+    margin-top: 161px;
+}
+.info__text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    max-width: 471px;
+    padding-top: 15px;
+}
+
+.main__button{
+    width: 300px;
+    height: 50px;
+    background: linear-gradient(115.13deg, #208275 0%, #2DD4BF 100%);
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-top: 43px;
+}
+
+/*  --------------------------section2---------------------*/
+
+.welcome{
+    min-height: 562px;
+    background: #F5F5F5;
+    padding: 120px 170px 120px 100px;
+    margin: 0 auto;
+}
+
+.welcome__text{
+    display: flex;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+}
+
+.welcome__header{
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.text{
+    max-width: 630px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    padding-top: 70px;
+}
+/*  --------------------------section3---------------------*/
+.advantages{
+    min-height: 426px;
+    padding: 40px 101px 41px;
+    background: #F8F8F8;
+}
+
+.advantages-header{
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.advantages-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card{
+    Width: 327px;
+    Height: 233px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.card__header{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+
+.card__text{
+    font-weight: 500;
+    font-size: 15px;
+    display: block;
+    line-height: 18px;
+    width: 227px;
+    padding-left: 15px;
+    padding-bottom: 13px;
+}
+
+.card:nth-child(1){
+    background:url(/images/scr2_clock_bg.png) no-repeat right top, url(/images/scr2_clock.png) no-repeat right top;
+}
+
+.card:nth-child(2){
+    background:url(/images/scr2_clock_bg.png) no-repeat right top, url(/images/diamond.png) no-repeat right top;
+}
+
+.card:nth-child(3){
+    background:url(/images/scr2_clock_bg.png) no-repeat right top, url(/images/wheel.png) no-repeat right top;
+}
+
+.card:nth-child(4){
+    background:url(/images/scr2_clock_bg.png) no-repeat right top, url(/images/label.png) no-repeat right top;
+}
+
+/* -------------------------------cards---------------------------- */
+
+
+.goods{
+    min-height: 1280px;
+    padding: 120px 102px 80px 100px;
+    
+}
+
+.goods-title{
+    font-size: 35px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1398px;
+    min-height: 1082px;
+    
+}
+
+.card-goods{
+    max-width: 327px;
+    max-height: 430px;
+    box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.card-goods__top{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    height: 215px;
+
+}
+
+.card-goods__bottom{
+    height: 215px;
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 19px 30px 15px 27px;
+}
+
+.card-goods__header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    max-width: 170px;
+}
+
+.card-goods__date{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #7D7D7D;
+
+}
+
+.card-goods__price{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #17A400;
+    padding:11px 0 15px;
+}
+
+.card-goods__btn{
+    width: 270px;
+    height: 35px;
+    left: 27px;
+    top: 380px;
+    background: #FF8A00;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
